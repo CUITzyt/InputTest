@@ -24,6 +24,9 @@
       <string name="upper_case">10000</string> <!-- 右边 -->
       <string name="chn_eng">10001</string> <!-- 右边 -->
       <string name="switch_num">10002</string> <!-- 右边 -->
+<<<<<<< HEAD
       <string name="go_to_test">leak 测试Leak</string> <!-- 右边 -->
+=======
+>>>>>>> dbcc5e71eb91b3c70a7527cefec95fd499014eff
       
 </resources>

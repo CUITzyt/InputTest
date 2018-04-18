@@ -1,6 +1,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE_TAGS := optional
 # This is the target being built.
 LOCAL_PACKAGE_NAME :=  InputTest
@@ -17,6 +18,16 @@ LOCAL_SRC_FILES += $(call all-java-files-under, ../leakcanarylib/src/)
 #LOCAL_PROGUARD_ENABLED := disabled
 #LOCAL_PACKAGE_NAME := HelloActivity
 
+=======
+
+LOCAL_MODULE_TAGS := optional
+
+# This is the target being built.
+LOCAL_PACKAGE_NAME :=  InputTest
+
+# Only compile source java files in this apk.
+LOCAL_SRC_FILES := $(call all-java-files-under, src)
+>>>>>>> dbcc5e71eb91b3c70a7527cefec95fd499014eff
 
 # Link against the current Android SDK.
 #LOCAL_SDK_VERSION := current
